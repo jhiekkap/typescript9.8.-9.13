@@ -1,4 +1,4 @@
-import diagnosisData from '../../data/diagnosisData'
+import diagnosisData from '../../data/diagnosisData';
 import { Diagnosis } from '../types';
   
 //const diagnoses: Array<Diagnosis> = diagnoseData as Array<Diagnosis>;

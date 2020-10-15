@@ -69,7 +69,7 @@ export interface Patient {
     ssn: string;
     gender: string;
     occupation: string;
-    entries?: Entry[]
+    entries?: Entry[];
 }
 
 export type NonSensitivePatientData = Omit<Patient, 'ssn' | 'entries'>;
